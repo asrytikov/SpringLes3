@@ -1,4 +1,9 @@
 package comments.repositories;
 
-public class CommentRepositories {
+import comments.model.Comment;
+
+public interface CommentRepository {
+
+    void storeComment(Comment comment);
+
 }
